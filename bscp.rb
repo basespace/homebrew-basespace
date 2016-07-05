@@ -1,7 +1,7 @@
 class Bscp < Formula
   homepage "https://illumina.com"
-  url "https://bintray.com/basespace/BaseSpaceCLI-TGZ/download_file?file_path=bscp-osx-0.3.2.tar.gz"
-  sha256 "ee0447996d0ae5e61d753a73d2a74d72bcb2cae4b96d0fcb6de1e94420af5522"
+  url "https://bintray.com/basespace/BaseSpaceCLI-TGZ/download_file?file_path=bscp-osx-0.3.99.tar.gz"
+  sha256 "659af556a6725c0cab131b8c524d58c6b79ab919478327268ef66a073985ebe1"
 
   def install
   	bin.install "bscp"
