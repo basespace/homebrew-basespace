@@ -1,8 +1,8 @@
 class BsCli < Formula
   desc "BaseSpace Sequence Hub Command Line Interface"
   homepage "https://developer.basespace.illumina.com/docs/content/documentation/cli/cli-overview"
-  url "https://dl.bintray.com/basespace/BaseSpaceCLI-EarlyAccess-BIN/latest/1.0.0/amd64-osx/bs"
-  sha256 "96c37a96b73e6c7549752f5724d6d4c4a4a1b3e077a73368e7027fcb8c2487d1"
+  url "https://dl.bintray.com/basespace/BaseSpaceCLI-EarlyAccess-BIN/latest/1.1.0/amd64-osx/bs"
+  sha256 "da5f17c0b830bd6155bb7dd6178f9e6b7a6a5f6d326cc45fccb9267f13a6fd83"
 
   def install
     bin.install "bs"
