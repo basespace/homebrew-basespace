@@ -5,17 +5,17 @@ class BsCli < Formula
 
   on_macos do
     on_arm do
-      url "https://launch.basespace.illumina.com/CLI/1.7.1/arm64-osx/bs"
-      # TODO(BASE-89703): fill in once the 1.7.1 arm64-osx artifact is published.
+      url "https://launch.basespace.illumina.com/CLI/#{version}/arm64-osx/bs"
+      # TODO(BASE-89703): fill in once the arm64-osx artifact for this version is published.
       # Generate with:
-      #   curl -sfL "https://launch.basespace.illumina.com/CLI/1.7.1/arm64-osx/bs" | shasum -a 256 | cut -d' ' -f1
+      #   curl -sfL "https://launch.basespace.illumina.com/CLI/#{version}/arm64-osx/bs" | shasum -a 256 | cut -d' ' -f1
       sha256 "ARM64_OSX_SHA256_PLACEHOLDER_FILL_AFTER_RELEASE"
     end
     on_intel do
-      url "https://launch.basespace.illumina.com/CLI/1.7.1/amd64-osx/bs"
-      # TODO(BASE-89703): fill in once the 1.7.1 amd64-osx artifact is published.
+      url "https://launch.basespace.illumina.com/CLI/#{version}/amd64-osx/bs"
+      # TODO(BASE-89703): fill in once the amd64-osx artifact for this version is published.
       # Generate with:
-      #   curl -sfL "https://launch.basespace.illumina.com/CLI/1.7.1/amd64-osx/bs" | shasum -a 256 | cut -d' ' -f1
+      #   curl -sfL "https://launch.basespace.illumina.com/CLI/#{version}/amd64-osx/bs" | shasum -a 256 | cut -d' ' -f1
       sha256 "AMD64_OSX_SHA256_PLACEHOLDER_FILL_AFTER_RELEASE"
     end
   end
