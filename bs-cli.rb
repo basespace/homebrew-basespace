@@ -6,17 +6,11 @@ class BsCli < Formula
   on_macos do
     on_arm do
       url "https://launch.basespace.illumina.com/CLI/#{version}/arm64-osx/bs"
-      # TODO(BASE-89703): fill in once the arm64-osx artifact for this version is published.
-      # Generate with:
-      #   curl -sfL "https://launch.basespace.illumina.com/CLI/#{version}/arm64-osx/bs" | shasum -a 256 | cut -d' ' -f1
-      sha256 "ARM64_OSX_SHA256_PLACEHOLDER_FILL_AFTER_RELEASE"
+      sha256 "c5b3074104047a70a07e1122ba4fb0d2d9d84b46c3e5aeb5dfc45ea6eb6c0063"
     end
     on_intel do
       url "https://launch.basespace.illumina.com/CLI/#{version}/amd64-osx/bs"
-      # TODO(BASE-89703): fill in once the amd64-osx artifact for this version is published.
-      # Generate with:
-      #   curl -sfL "https://launch.basespace.illumina.com/CLI/#{version}/amd64-osx/bs" | shasum -a 256 | cut -d' ' -f1
-      sha256 "AMD64_OSX_SHA256_PLACEHOLDER_FILL_AFTER_RELEASE"
+      sha256 "71cab9dab9aa931970d6ee9d91cb86401912ca85123127439a9ba033c38889e4"
     end
   end
 
